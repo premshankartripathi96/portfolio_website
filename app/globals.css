@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+     --color-gray: #B8E3E9 ;
+     --color-dark-hover: #2a004a ;
+     --color-hello: #262626 ;
+     --font-outfit: 'Outfit', sans-serif;
+     --font-ovo: 'Ovo', serif;
+     --shadow-black: 4px 4px 0px #000 ;
+     --shadow-white: 4px 4px 0px #fff ;
+     --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+      --dark-mode-selector: selector;
+}
+
+
+/** ----abhii isme changes krna h aur isko update krna h----
+
+extend: {
+  colors: {
+    lightHover: "#fcf4ff",
+    darkHover: "#2a004a",
+    darkTheme: "#11001f",
+  },
+  fontFamily: {
+    Outfit: ["Outfit", "sans-serif"],
+    Ovo: ["Ovo", "serif"]
+  },
+  boxShadow: {
+    'black': '4px 4px 0px #000',
+    'white': '4px 4px 0px #fff',
+  },
+  gridTemplateColumns: {
+    'auto': 'repeat(auto-fit, minmax(200px, 1fr))',
+}
+    darkMode: 'selector',
+};
+
+
+--------------------------------------------------------------------*/
