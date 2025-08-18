@@ -14,11 +14,11 @@ const Header = () => {
       <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
         Frontend  Web Developer Based in Kanpur.</h1>
         <p>
-            I am a passionate frontend web developer with a keen eye for design and a love for creating seamless user experiences. My journey in web development has been driven by a desire to bring ideas to life through code, and I thrive on the challenge of turning complex problems into elegant solutions
+            I am a passionate Full Stack Developer with a keen eye for design and a love for creating seamless user experiences by blending modern AI and ML concepts. My journey in web development has been driven by a desire to bring ideas to life through code, and I thrive on the challenge of turning complex problems into elegant solutions
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-            <a href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2' >Contact Me <Image src={assets.right_arrow_white} alt='' className='w-4'/></a>
-              <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My Resume <Image src={assets.download_icon} alt='' className='w-4'/></a>
+            <a href="#contact" className='px-10 py-3 border border-white rounded-full bg-black/90 text-white flex items-center gap-2 hover:bg-black ' >Contact Me <Image src={assets.right_arrow_white} alt='' className='w-4'/></a>
+              <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:border-black'>My Resume <Image src={assets.download_icon} alt='' className='w-4'/></a>
         </div>
     </div>
   );

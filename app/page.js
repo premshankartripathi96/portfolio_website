@@ -6,11 +6,21 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Work from "./components/Work";
+import Projects from "./components/Project";
 import { useEffect, useState } from "react";
 
 export default function Home() {
 
- const [isDarkMode, setIsDarkMode] =useState(false); 
+ /* ----- const [isDarkMode, setIsDarkMode] =useState(false); 
+
+  useEffect(() => {
+    if (localStorage.theme === 'dark'|| (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      setIsDarkMode(true)
+      } 
+      else {
+        setIsDarkMode(false)
+      }
+  }, [])
 
   useEffect(() => {
    
@@ -23,13 +33,14 @@ export default function Home() {
       localStorage.theme = '';
     }
 
-  }, [isDarkMode])
+  }, [isDarkMode]) ----- */
   
   return (
    <>
    <Navbar />
    <Header />
    <About />
+   <Projects />
    <Services />
    <Work />
    <Contact />
