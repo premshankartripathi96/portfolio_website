@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div className='text-center'>
 
-            <Image src={assets.logo} alt='' className='w-40 mx-auto mb-4' /> 
+            <Image src={assets.logo} alt='' className='w-40 mx-auto mb-6' /> 
 
            <div className='w-max mx-auto flex items-center gap-2'>
              <Image src={assets.mail_icon} alt='' className='w-6' />pstripathi2020@gmail.com 

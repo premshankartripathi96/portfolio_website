@@ -6,9 +6,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Work from "./components/Work";
-<<<<<<< HEAD
 import Projects from "./components/Project";
-import { useEffect, useState } from "react";
 
 export default function Home() {
 
@@ -22,13 +20,6 @@ export default function Home() {
         setIsDarkMode(false)
       }
   }, [])
-=======
-//import { useEffect, useState } from "react";
-
-export default function Home() {
-
-/* const [isDarkMode, setIsDarkMode] =useState(false); 
->>>>>>> 33bbaa1539789bc7c0f4ee397db9e8af9ace7ca7
 
   useEffect(() => {
    
@@ -41,13 +32,7 @@ export default function Home() {
       localStorage.theme = '';
     }
 
-<<<<<<< HEAD
   }, [isDarkMode]) ----- */
-=======
-  }, [isDarkMode])
-
-  */
->>>>>>> 33bbaa1539789bc7c0f4ee397db9e8af9ace7ca7
   
   return (
    <>
