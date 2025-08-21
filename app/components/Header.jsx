@@ -12,7 +12,7 @@ const Header = () => {
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </h3>
       <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        Frontend  Web Developer Based in Kanpur.</h1>
+        Full Stack Developer Based in Kanpur.</h1>
         <p>
             I am a passionate Full Stack Developer with a keen eye for design and a love for creating seamless user experiences by blending modern AI and ML concepts. My journey in web development has been driven by a desire to bring ideas to life through code, and I thrive on the challenge of turning complex problems into elegant solutions
         </p>
