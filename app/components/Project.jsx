@@ -24,8 +24,8 @@ const projects = [
     desc: "A modern personal portfolio with smooth animations and responsive design using Next.js.",
     img: "/images/portfolio.jpg",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    live: "#",
-    code: "#",
+    live: "https://premshankartripathiworkfolio.netlify.app/",
+    code: "https://github.com/premshankartripathi96/portfolio_website",
   },
   {
     title: "E-commerce Website",
@@ -48,16 +48,16 @@ const projects = [
     desc: "Generate secure and customizable random passwords instantly.",
     img: "/images/random.webp",
     tech: ["JavaScript", "HTML5", "CSS3"],
-    live: "#",
-    code: "#",
+    live: "https://premshankartripathi96.github.io/OTP-generator/",
+    code: "https://github.com/premshankartripathi96/OTP-generator",
   },
   {
     title: "Text-to-Speech Converter",
     desc: "Convert written text into natural-sounding speech.",
     img: "/images/tts.jpg",
     tech: ["React", "Web Speech API"],
-    live: "#",
-    code: "#",
+    live: " https://premshankartripathi96.github.io/Text-to-speech/",
+    code: "https://github.com/premshankartripathi96/Text-to-speech",
   },
 ];
 
